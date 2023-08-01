@@ -35,14 +35,11 @@ const Footer = () => {
           <li>Hast du allgemeine?</li>
           <li><h7>Contact</h7></li></ul> </div>
           </div>
-      
           </div>
         </div>
           </div>
-    
       <div className={styles.footer}><p>Impressum   |   Datenschutzerklärung   |   AGB</p></div>
     </>
   )
 }
-
 export default Footer

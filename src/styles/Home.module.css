@@ -16,6 +16,13 @@
     font-size: 13px;
     color: white;
   }
+  .blancF {
+    width: 50rem;
+    height: 20rem;
+    background-color: white;
+    margin-top: 5rem;
+    color: black;
+  }
   .greef {
      height: 31.25rem;
   }

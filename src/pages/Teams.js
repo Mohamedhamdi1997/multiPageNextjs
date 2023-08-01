@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import React from 'react'
 import styles from '@/styles/Teams.module.css'
+import Image from 'next/image'
 const About = () => {
   return (
     <>
@@ -25,48 +26,72 @@ const About = () => {
         </div>     
     </div> 
     </div>
-    <div className="container-fluid">
-      <div className="row">
-        <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" style={{ backgroundColor: 'white', color: 'black', height: '28.125rem', paddingTop:'2rem' }}>
-          <h1 className={styles.title1}>Actuelle<br/>News</h1>
-           <h7 className={styles.title101}>Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien lebendie Blindtexte. Abgeschieden wohnen sie.</h7>
-        </div>  
-       <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" style={{ backgroundColor: 'white', color: 'black'}}>
-       <div className={styles.BlancSale1}></div>    
+    <br/>
+    <div className="container">
+          <div className="row">
+          <div className="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+              <div className="about-text">
+                <h2>dsùdmsùdmùdmsù<br/>dmùsmdùsmdùsmù</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, possimus nemo?
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, possimus nemo?
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, possimus nemo?
+                </p>
+                <a href="#" className="btn btn-warning">Learn More</a><br />
+              </div>
+          </div>
+            <div className="col-lg-4 col-md-12 col-12">
+              <div>
+                <Image src='/home1.jpeg' width={320} height={250}/>
+              </div><br />
+            </div>
+            <div className="col-lg-4 col-md-12 col-12">
+              <div>
+                <Image src='/home1.jpeg' width={320} height={250}/>
+              </div>
+            </div>
+            <div className="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+              <div className="about-text">
+                <h2>dsùdmsùdmùdmsù<br/>dmùsmdùsmdùsmù</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, possimus nemo?
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, possimus nemo?
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, possimus nemo?
+                </p>
+                <a href="#" className="btn btn-warning">Learn More</a><br />
+              </div>
+          </div>
+            <div className="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+              <div className="about-text">
+                <h2>dsùdmsùdmùdmsù<br/>dmùsmdùsmdùsmù</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, possimus nemo?
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, possimus nemo?
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, possimus nemo?
+                </p>
+                <a href="#" className="btn btn-warning">Learn More</a><br />
+              </div>
+          </div>
+            <div className="col-lg-4 col-md-12 col-12">
+              <div>
+                <Image src='/home1.jpeg' width={320} height={250}/>
+              </div><br />
+            </div>
+            <div className="col-lg-4 col-md-12 col-12">
+              <div>
+                <Image src='/home1.jpeg' width={320} height={250}/>
+              </div>
+            </div>
+            <div className="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+              <div className="about-text">
+                <h2>dsùdmsùdmùdmsù<br/>dmùsmdùsmdùsmù</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, possimus nemo?
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, possimus nemo?
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, possimus nemo?
+                </p>
+                <a href="#" className="btn btn-warning">Learn More</a><br />
+              </div>
+          </div>
+            
         </div>
-        <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" style={{ backgroundColor: 'white', color: 'black', paddingLeft: '5rem', height: '28.125rem', paddingTop:'2rem' }}>
-       <div className={styles.BlancSale1}></div>    
         </div>
-        <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" style={{ backgroundColor: 'white', color: 'black', paddingLeft: '8rem', height: '28.125rem', paddingTop:'2rem' }}>
-          <h1 className={styles.title1}>Actuelle<br/>News</h1><br/>
-           <h7>Weit hinten, hinter den Wortbergen, fern der <br/>
-           Länder Vokalien und Konsonantien leben<br/> 
-           die Blindtexte. Abgeschieden wohnen sie.</h7><br/>
-        </div>  
-        <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" style={{ backgroundColor: 'white', color: 'black', paddingLeft: '8rem', height: '28.125rem', paddingTop:'2rem' }}>
-          <h1 className={styles.title1}>Actuelle<br/>News</h1><br/>
-           <h7>Weit hinten, hinter den Wortbergen, fern der <br/>
-           Länder Vokalien und Konsonantien leben<br/> 
-           die Blindtexte. Abgeschieden wohnen sie.</h7><br/>
-        </div>  
-       <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" style={{ backgroundColor: 'white', color: 'black', paddingLeft: '5rem', height: '28.125rem', paddingTop:'2rem' }}>
-       <div className={styles.BlancSale1}></div>    
-        </div>
-        <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" style={{ backgroundColor: 'white', color: 'black', paddingLeft: '5rem', height: '28.125rem', paddingTop:'2rem' }}>
-       <div className={styles.BlancSale1}></div>    
-        </div>
-        <div className="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" style={{ backgroundColor: 'white', color: 'black', paddingLeft: '8rem', height: '28.125rem', paddingTop:'2rem' }}>
-          <h1 className={styles.title1}>Actuelle<br/>News</h1><br/>
-           <h7>Weit hinten, hinter den Wortbergen, fern der <br/>
-           Länder Vokalien und Konsonantien leben<br/> 
-           die Blindtexte. Abgeschieden wohnen sie.</h7><br/>
-        </div> 
-         
-        <hr />
-     
-      </div>
-    
-    </div>
     
     </>
   )

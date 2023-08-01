@@ -10,7 +10,7 @@ const Navbar = () => {
     const [isButtonVisible, setButtonVisible] = useState(false);
 return (
     <>
-<nav className={styles.navb}  >
+<nav className={styles.navb}  fixed-top>
 <div className="logo">
 <Image src='/logo.jpg' width={276} height={88} />
 </div>
@@ -46,7 +46,7 @@ return (
 </ul>
 </div>
 <div className={isButtonVisible ? `${styles.navb.btnContainer} ${styles.active}` : styles.btnContainer}>
-<p className={styles.btn1}>Login</p>
+<Link href="/Login"><p className={styles.btn1}>Login</p></Link>
 <Link href="/register"><p className={styles.btn2}>Register</p></Link>
 </div>
 </nav>
